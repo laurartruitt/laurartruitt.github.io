@@ -1,6 +1,11 @@
 body {
 	color: white;
-	background-color: #e90606; 
+	background-color: #f15a30; 
 	font-family: Arial, sans-serif;
 	font-style: italic; 
+}
+h1 {
+	color: #0d2c40;
+	font-family: Georgia, sans-serif;
+	font-style: bold;
 }
