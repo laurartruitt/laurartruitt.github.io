@@ -15,29 +15,20 @@ header {
 	padding: 20px;
 }
 
-.container {
-  position: relative;
-  width: 50%;
+.button-container{
+display:inline-block;
+position:relative;
 }
 
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: ##E1D6D6;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+.button-container a{
+position: absolute;
+bottom:4em;
+right:4em;
+background-color:#E1D6D6;
+border-radius:1.5em;
+color:white;
+text-transform:uppercase;
+padding:1em 1.5em;
 }
 
 .container .btn: hover {
