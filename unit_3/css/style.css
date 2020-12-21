@@ -20,7 +20,15 @@ nav {
 	font-style: bold;
 	margin-right: 100px;
 	padding-right: 20px;
-
-img {
-	width:100%;
 }
+
+h1	{
+	padding: 20px;
+	background-color: #E88A6B;
+	margin: 10px;
+	font-style: bold;
+	font-size: 50px;
+
+}
+
+
