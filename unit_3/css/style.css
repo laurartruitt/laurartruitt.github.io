@@ -21,7 +21,7 @@ position:relative;
 }
 
 .button-container a{
-position: absolute;
+position: center;
 bottom:4em;
 right:4em;
 background-color:#E1D6D6;
