@@ -24,10 +24,6 @@ header {
   display: inline-block;
 }
 
-.btn:hover {background: #eee;}
+.btn:hover {background: #E1D6D6;}
 
-.success {color: green;}
-.info {color: dodgerblue;}
-.warning {color: orange;}
-.danger {color: red;}
-.default {color: black;}
+.shop{color: green;}
