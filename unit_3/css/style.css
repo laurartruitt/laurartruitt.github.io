@@ -15,18 +15,19 @@ header {
 	padding: 20px;
 }
 
-.button-container{
-display:inline-block;
-position:relative;
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
 }
 
-.button-container a{
-position: left;
-background-color:#E1D6D6;
-color:white;
+.btn:hover {background: #eee;}
 
-}
-
-.container .btn: hover {
-  background-color: black;
-}
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
