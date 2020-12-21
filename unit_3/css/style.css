@@ -22,15 +22,11 @@ position:relative;
 
 .button-container a{
 position: left;
-bottom:4em;
-right:4em;
 background-color:#E1D6D6;
-border-radius:1.5em;
 color:white;
-text-transform:uppercase;
-padding:1em 1.5em;
+
 }
 
 .container .btn: hover {
-  background-color: blue;
+  background-color: black;
 }
