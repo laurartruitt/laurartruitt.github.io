@@ -14,3 +14,8 @@ header {
 	background-color: #E1D6D6;
 	padding: 20px;
 }
+
+nav a {
+	color: #E1D6D6;
+	font-style: bold;
+	margin-right: 10px;
