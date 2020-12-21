@@ -8,6 +8,7 @@ body {
 	font-size: 20px;
 	color: #222222;
 	line-height: 1.3;
+	background-color: #E1D6D6;
 }
 
 header {
@@ -24,9 +25,8 @@ nav {
 
 h1	{
 	padding: 20px;
-	background-color: #000000;
-	margin: 10px;
-	font-style: bold;
+	background-color: #E8DAA0;
+	font-style: italic;
 	font-size: 50px;
 	text-align: center;
 }
