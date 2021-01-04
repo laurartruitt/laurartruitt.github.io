@@ -20,7 +20,7 @@ nav {
 
 p{
 	font-family: sans-serif;
-	width:30em;
+	width:40em;
 	font-size:1.5em;
 }
 
@@ -34,12 +34,17 @@ section	{
 	width: 100%;
 }
 
-.hero	{
+.hero{
 	background: url(images/hero.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width:100%;
 }
+
+.homepage{
+	width:40em;
+}
+
 
 img	{
 	width: 25%;
