@@ -11,6 +11,20 @@ header {
 
 }
 
+h2,h3,h4,h5,h6	{
+	font-size: 22px;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	color: #222222;
+	font-weight: bold;
+
+
+}
+
+
+
+}
+
+
 nav {
 }
 
