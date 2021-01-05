@@ -11,17 +11,12 @@ header {
 
 }
 
-h2,h3,h4,h5,h6	{
-	font-size: 22px;
+h1, h2, h3, h4, h5, h6, {
+	font-size: 3em;
+	width: 20em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
-
-
-}
-
-
-
 }
 
 
@@ -30,13 +25,10 @@ nav {
 
 p{
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	width:30em;
+	width:15em;
 	font-size:1.5em;
 }
 
-}
-section	{
-}
 
 .hero{
 	background: url(images/hero.png);
