@@ -8,16 +8,10 @@ body {
 }
 
 header {
-	background-color: #E1D6D6;
-	padding: 20px;
 
 }
 
 nav {
-	color: #E1D6D6;
-	font-style: bold;
-	margin-right: 100px;
-	padding-right: 20px;
 }
 
 p{
@@ -28,12 +22,6 @@ p{
 
 }
 section	{
-	background-color: #E1D6D6;
-	padding: 20px;
-	font-style: italic;
-	font-size: 20px;
-	text-align: center;
-	width: 100%;
 }
 
 .hero{
@@ -60,6 +48,3 @@ img	{
 	
 }
 
-hr{
-	border:1px #000000;
-}
