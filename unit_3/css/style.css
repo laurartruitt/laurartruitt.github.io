@@ -39,6 +39,10 @@ p {
 }
 
 
+.logo{
+	width: 1em;
+	text-align:left;
+}
 .hero{
 	background: url(images/hero.png);
 	background-repeat: no-repeat;
