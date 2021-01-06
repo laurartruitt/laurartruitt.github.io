@@ -52,13 +52,16 @@ p {
 	background: url(images/hero.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width:200em;
-	height: auto;
 	opacity: 0.8;
 	text-align: center;
 	background-color: #E1D6D6;
-
 }
+
+.hero img{
+	width: 100%;
+	height: auto;
+}
+
 
 .homepagel{
 	width:100em;
