@@ -31,7 +31,14 @@ nav {
 	color: black;
 }
 
+.logo{
+	text-align: left;
+}
 
+.logo img {
+	width: 50%;
+	height: auto;
+}
 
 p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
