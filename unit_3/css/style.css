@@ -30,7 +30,6 @@ section{
 nav {
 }
 
-section {
 
 
 p {
@@ -44,7 +43,7 @@ p {
 	background: url(images/hero.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width:100%;
+	width:200em;
 	height: auto;
 	opacity: 0.8;
 	text-align: center;
