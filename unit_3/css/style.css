@@ -19,11 +19,21 @@ h1, h2, h3, h4, h5, h6, {
 	font-weight: bold;
 }
 
+section{
+	font-size: 4em;
+	width: 60em;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	color: #222222;
+	font-weight: bold;
+}
 
 nav {
 }
 
-p{
+section {
+
+
+p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	width:15em;
 	font-size:1.5em;
