@@ -29,16 +29,23 @@ section{
 
 nav {
 	color: black;
+	float: right;
 }
 
 #logo{
+	float: left;
 	height: 100px;
-	vertical-align: middle;
+	position: relative;\
+	margin: 10px 15px 15px 10px;
 }
 
 .main-nav ul {
-	display: inline;
-	list-style: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
 }
 
 .main-nav li {
