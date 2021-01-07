@@ -97,6 +97,14 @@ p {
 	transform: translate(-50%, -50%);
 }
 
+.summary h1{
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	color: #222222;
+	font-weight: bold;
+	padding: 20px;
+}
 
 .homepagel{
 	width:100em;
