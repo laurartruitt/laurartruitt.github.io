@@ -11,7 +11,7 @@ header {
 
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
 	font-size: 3em;
 	width: 20em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -63,8 +63,8 @@ nav {
 
 p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	width:15em;
-	font-size:.5em;
+	width:20em;
+	font-size:1.5em;
 	text-align: left;
 }
 
@@ -95,7 +95,7 @@ p {
 }
 
 .summary h1{
-	font-size: 3em;
+	font-size: 4em;
 	text-align: center;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
@@ -103,16 +103,14 @@ p {
 	padding: 20px;
 }
 
-.homepagel{
-	width:100em;
+.breads{
+	width:100%;
 	margin: 2em auto;
-	text-align:left;
 }
 
-.homepager{
-	width:60em;
+.skincare{
+	width:100%;
 	margin: 2em auto;
-	text-align:right;
 }
 
 
