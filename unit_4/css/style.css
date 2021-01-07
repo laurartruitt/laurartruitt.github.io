@@ -105,7 +105,6 @@ p {
 
 .breads{
 	width:100%;
-	margin: 2em auto;
 }
 
 .skincare{
@@ -117,4 +116,10 @@ p {
 	width: 25%;
 }
 
+.story{
+	width: 25%;
+}
 
+.contact{
+	width: 25%;
+}
