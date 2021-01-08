@@ -96,7 +96,7 @@ p {
 
 .summary h1{
 	font-size: 4em;
-	text-align: center;
+	text-align: left;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
@@ -126,10 +126,11 @@ p {
 	background-color: black;
 	border-radius: 5px;
 	transform: translate(-50%, -50%);
+}
 
 .skincare{
-	position:relative;
-	width: 50%;
+	position: relative;
+	width:50%;
 	height: initial;
 }
 
@@ -137,6 +138,19 @@ p {
 	text-align: left;
 	width: 50%;
 	height: initial;
+}
+
+.skincare .shop-now-button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	color: white;
+	font-size: 1em;
+	padding: 12px 24px;
+	background-color: black;
+	border-radius: 5px;
+	transform: translate(-50%, -50%);
 }
 
 .social{
