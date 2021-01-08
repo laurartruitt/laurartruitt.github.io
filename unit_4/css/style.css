@@ -12,12 +12,20 @@ header {
 }
 
 h1, h2, h3, h4 {
-	font-size: 3em;
+	font-size: 4em;
 	width: 20em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
 }
+
+p {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	width:20em;
+	font-size:2em;
+	text-align: left;
+}
+
 
 section{
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -61,12 +69,6 @@ nav {
 	background: fff;
 }
 
-p {
-	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	width:20em;
-	font-size:1.5em;
-	text-align: left;
-}
 
 .Hero{
 	position: relative;
@@ -100,7 +102,6 @@ p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
-	padding: 20px;
 }
 
 .Breads{
