@@ -68,20 +68,20 @@ p {
 	text-align: left;
 }
 
-.hero{
+.Hero{
 	position: relative;
 	width: 100%;
 	height: initial;
 }
 
-.hero img{
+.Hero img{
 	text-align: center;
 	width: 100%;
 	height: initial;
 }
 
 
-.hero .shop-now-button{
+.Hero .shop-now-button{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -94,7 +94,7 @@ p {
 	transform: translate(-50%, -50%);
 }
 
-.summary h1{
+.Summary h1{
 	font-size: 4em;
 	text-align: left;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -103,19 +103,19 @@ p {
 	padding: 20px;
 }
 
-.breads{
+.Breads{
 	position: relative;
 	width:50%;
 	height: initial;
 }
 
-.breads img{
+.Breads img{
 	text-align: left;
 	width: 50%;
 	height: initial;
 }
 
-.breads .shop-now-button{
+.Breads .shop-now-button{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -128,19 +128,19 @@ p {
 	transform: translate(-50%, -50%);
 }
 
-.skincare{
+.Skincare{
 	position: relative;
 	width:50%;
 	height: initial;
 }
 
-.skincare img{
+.Skincare img{
 	text-align: left;
 	width: 50%;
 	height: initial;
 }
 
-.skincare .shop-now-button{
+.Skincare .shop-now-button{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -153,14 +153,39 @@ p {
 	transform: translate(-50%, -50%);
 }
 
-.social{
-	width: 25%;
+.Social{
+	position: relative;
+	width:50%;
+	height: initial;
 }
 
-.story{
-	width: 25%;
+.Social img{
+	width:50%;
+	height:initial;
+	text-align:left;
 }
 
-.contact{
-	width: 25%;
+
+.Story{
+	width: 50%;
+	height: initial;
+	text-align: left;
+}
+
+.Story img{
+	width:50%;
+	height:initial;
+	text-align:left;
+}
+
+.Contact{
+	width: 50%;
+	height: initial;
+	text-align: left;
+}
+
+.Contact img{
+	width:50%;
+	height:initial;
+	text-align:left;
 }
