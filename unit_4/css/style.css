@@ -12,7 +12,7 @@ header {
 }
 
 h1, h2, h3, h4 {
-	font-size: 4em;
+	font-size: 3em;
 	width: 20em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
@@ -33,8 +33,11 @@ section{
 }
 
 nav {
+	background-color: #FAB982;
 	color: black;
 	float: right;
+	padding: 20px;
+	letter-spacing: 1px;
 }
 
 #logo{
@@ -56,7 +59,6 @@ nav {
 .main-nav li {
 	display: inline;
 	cursor: pointer;
-	border: 1px solid black;
 	padding: 20px;
 	margin-left: -5px;
 }
@@ -80,6 +82,7 @@ nav {
 	text-align: center;
 	width: 100%;
 	height: initial;
+	margin:2em auto;
 }
 
 
@@ -97,11 +100,14 @@ nav {
 }
 
 .Summary h1{
-	font-size: 4em;
+	font-size: 6em;
 	text-align: left;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
+	padding: 20px;
+	background-color:#E09983;
+	width: 100%;
 }
 
 .Breads{
@@ -112,8 +118,9 @@ nav {
 
 .Breads img{
 	text-align: left;
-	width: 50%;
 	height: initial;
+	width: 30em;
+	margin: 2em auto;
 }
 
 .Breads .shop-now-button{
@@ -137,8 +144,9 @@ nav {
 
 .Skincare img{
 	text-align: left;
-	width: 50%;
 	height: initial;
+	width: 30em;
+	margin: 2em auto;
 }
 
 .Skincare .shop-now-button{
@@ -161,9 +169,10 @@ nav {
 }
 
 .Social img{
-	width:50%;
+	width:30em;
 	height:initial;
 	text-align:left;
+	margin: 2em auto;
 }
 
 
@@ -177,6 +186,8 @@ nav {
 	width:50%;
 	height:initial;
 	text-align:left;
+	width: 30em;
+	margin: 2em auto;
 }
 
 .Contact{
@@ -186,7 +197,8 @@ nav {
 }
 
 .Contact img{
-	width:50%;
+	width:30em;
 	height:initial;
 	text-align:left;
+	margin: 2em auto;
 }
