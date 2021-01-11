@@ -191,9 +191,10 @@ nav {
 }
 
 .Contact{
-	width: 50%;
+	width: 100%;
 	height: initial;
 	text-align: left;
+	background-color: #FA776B;
 }
 
 .Contact img{
