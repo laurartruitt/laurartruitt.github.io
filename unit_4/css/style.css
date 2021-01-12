@@ -79,7 +79,7 @@ nav {
 
 .Hero img{
 	text-align: center;
-	width: 100%;
+	width: 105%;
 	height: initial;
 	margin:0;
 }
@@ -139,7 +139,7 @@ font-variant: small-caps;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:2em;
 	text-align: right;
-	margin: 1px 420px;
+	margin: 20px 200px;
 }
 
 .Breads img{
