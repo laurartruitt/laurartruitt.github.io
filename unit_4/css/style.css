@@ -252,7 +252,7 @@ font-variant: small-caps;
 	width: 100%;
 	height: initial;
 	text-align: left;
-	column-count: 3;
+	column-count: 2;
 	background-color: #F0DE7D;
 }
 .aboutourstory{
@@ -264,11 +264,7 @@ font-variant: small-caps;
 .storypar{
 	width: 50%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:1.52em;
-	text-align: left;
-	float: left;
-	margin: auto;
-	padding: 0px;
+	font-size:2em;
 }
 .Story img{
 	text-align: left;
