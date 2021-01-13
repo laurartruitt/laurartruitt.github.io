@@ -11,16 +11,21 @@ body {
 
 h1, h2, h3, h4 {
 	font-size: 3em;
-	width: 90%;
+	width:25%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
 	margin: auto;
 }
 
+h2{
+	text-transform: uppercase;
+	width: 90%;
+}
+
 p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	width:20em;
+	width:100%;
 	font-size:2em;
 	text-align: left;
 }
@@ -29,6 +34,7 @@ p {
 section{
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
+	width: 100%;
 }
 
 nav {
@@ -106,7 +112,7 @@ nav {
 	font-weight: bold;
 	padding: 20px;
 	background-color:#E09983;
-	width: 121%;
+	width: 100%;
 	border-color: black;
 	border-style: solid; 
 	margin: 0;
@@ -132,14 +138,18 @@ font-variant: small-caps;
 	padding: 10px 200px 10px 40px;
 	background-color: #F0E4A9;
 	margin: auto;
+	column-count: 2;
 }
 
 .breadpar{
-	width: 20;
+	width: 50%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:2em;
 	text-align: right;
-	margin: 20px 200px;
+	margin: auto;
+	padding: 20px 30px 10px 19px
+		
+	
 }
 
 .Breads img{
