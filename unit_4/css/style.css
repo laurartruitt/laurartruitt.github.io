@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
+/*box-sizing: border-box;*/
 *{
 	padding:0;
 	margin: 0;
@@ -33,13 +33,11 @@ p {
 	width:100%;
 	font-size:2em;
 	text-align: left;
+	margin: 20px;
 }
 
-
-section{
-	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	color: #222222;
-	width: 100%;
+a{
+	margin: 30px;
 }
 
 nav {
@@ -54,33 +52,25 @@ nav {
 	float: left;
 	height: 100px;
 	position: relative;\
-	margin: 10px 15px 15px 10px;
+	margin: 10px 15px;
 }
 
-.main-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	text-align: center;
-	overflow: hidden;
+nav ul {
+	margin: 10px;
+	padding: 10px;
 }
 
-.main-nav li {
+nav li {
 	display: inline;
 	cursor: pointer;
 	padding: 20px;
 	margin-left: -5px;
 }
 
-.main-nav a {
+nav a {
 	text-decoration: none;
+	margin: 20px;
 }
-
-.main-nav li:hover{
-	background: fff;
-}
-
 
 .Hero{
 	position: relative;
@@ -130,12 +120,13 @@ font-variant: small-caps;
   padding:0 .2em;
   background: #FA776B;
   font-weight: bolder;
-  text-align: right;
+  float: left;
 }
 
 .aboutbreads{
 	margin: auto;
-	text-align: right;
+	text-align: left;
+	float: left;
 }
 
 .Breads{
@@ -150,15 +141,14 @@ font-variant: small-caps;
 	width: 50%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:1.52em;
-	text-align: right;
+	text-align: left;
+	float: left;
 	margin: auto;
-	padding: 20px 30px 10px 19px
-		
-	
+	padding: 0px;
 }
 
 .Breads img{
-	text-align: left;
+	padding: 40px;
 	height: initial;
 	width: 30em;
 	margin: auto;
@@ -174,14 +164,32 @@ font-variant: small-caps;
 	padding: 12px 24px;
 	margin: auto
 	transform: translate(-50%, -50%);
-	position: left;
+	float: right;
 	border: 2px black solid;
+}
+
+.aboutskincare{
+	margin: auto;
+	text-align: left;
+	float: left;
+}
+
+.skinpar{
+	width: 50%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	text-align: left;
+	float: left;
+	margin: auto;
+	padding: 0px;
 }
 
 .Skincare {
 	position:relative;
-	width:50%;
+	width:100%;
 	height: initial;
+	background-color: #F0B47D;
+	column-count: 2;
 }
 
 .Skincare img{
@@ -206,32 +214,68 @@ font-variant: small-caps;
 
 .Social{
 	position: relative;
-	width:50%;
+	width:100%;
 	height: initial;
+	background-color: #D4F2CE;
+	column-count: 2;
 }
+.getsocial{
+	width: 100%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	text-align: left;
+	float: left;
+	margin: 20px;
+	padding: 0px;
+}
+
+.join{
+margin:10px;
+font-variant: small-caps;
+	font-size: 1.5em;
+  letter-spacing: .1em;
+  padding:0 .2em;
+  background: #FA776B;
+  font-weight: bolder;
+  float: left;
+}
+
 
 .Social img{
 	width:30em;
 	height:initial;
-	text-align:left;
 	margin: 2em auto;
 }
 
 
 .Story{
-	width: 50%;
+	width: 100%;
 	height: initial;
 	text-align: left;
+	column-count: 3;
+	background-color: #F0DE7D;
+}
+.aboutourstory{
+	margin: auto;
+	text-align: left;
+	float: left;
 }
 
+.storypar{
+	width: 50%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	text-align: left;
+	float: left;
+	margin: auto;
+	padding: 0px;
+}
 .Story img{
-	width:50%;
-	height:initial;
-	text-align:left;
+	text-align: left;
+	height: initial;
 	width: 30em;
 	margin: 2em auto;
 }
-
 
 .Contact{
 	width: 100%;
@@ -245,4 +289,20 @@ font-variant: small-caps;
 	height:initial;
 	text-align:left;
 	margin: 2em auto;
+}
+
+footer {
+	padding: 20px;
+	background-color: lightgray;
+}
+
+footer p{
+	display: block;
+	box-sizing: border-box;
+	margin: 30px;
+}
+
+#wrapper{
+	width:1080px;
+	margin: 0 auto;
 }
