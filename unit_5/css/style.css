@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*box-sizing: border-box;*/
+*{
+	padding:0;
+	margin: 0;
+}
+
+
+body {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size: 16px; /*1em=16px*/
+	line-height: 1.3;
+	background-color: #E1D6D6;
+}
+
+h1, h2, h3, h4 {
+	font-size: 3em;
+	width:25%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	color: #222222;
+	font-weight: bold;
+	margin: auto;
+}
+
+h2{
+	text-transform: uppercase;
+	width: 90%;
+}
+
+p {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	width:100%;
+	font-size:2em;
+	text-align: left;
+	margin: 20px;
+}
+
+a{
+	margin: 30px;
+}
+
+nav {
+	background-color: #FAB982;
+	color: black;
+	float: right;
+	padding: 20px;
+	letter-spacing: 1px;
+}
+
+#logo{
+	float: left;
+	height: 100px;
+	position: relative;\
+	margin: 10px 15px;
+}
+
+nav ul {
+	margin: 10px;
+	padding: 10px;
+}
+
+nav li {
+	display: inline;
+	cursor: pointer;
+	padding: 20px;
+	margin-left: -5px;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 20px;
+}
+
+.Hero{
+	position: relative;
+	width: 100%;
+	height: initial;
+}
+
+.Hero img{
+	text-align: center;
+	width: 105%;
+	height: initial;
+	margin:0;
+}
+
+
+.Hero .shop-now-button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	color: white;
+	font-size: 2em;
+	padding: 12px 24px;
+	background-color: black;
+	border-radius: 5px;
+	transform: translate(-50%, -50%);
+}
+
+.Summary h1{
+	font-size: 6em;
+	text-align: left;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	color: #222222;
+	font-weight: bold;
+	padding: 20px;
+	background-color:#E09983;
+	width: 100%;
+	border-color: black;
+	border-style: solid; 
+	margin: 0;
+	text-align: center;
+}
+
+.ingredients {
+font-variant: small-caps;
+  letter-spacing: .2em;
+  padding:0 .2em;
+  background: #FA776B;
+  font-weight: bolder;
+  float: left;
+}
+
+.aboutbreads{
+	margin: auto;
+	text-align: left;
+	float: left;
+}
+
+.Breads{
+	width:100%;
+	padding: 10px 200px 10px 40px;
+	background-color: #F0E4A9;
+	margin: auto;
+	column-count: 2;
+}
+
+.breadpar{
+	width: 50%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	text-align: left;
+	float: left;
+	margin: auto;
+	padding: 0px;
+}
+
+.Breads img{
+	padding: 40px;
+	height: initial;
+	width: 30em;
+	margin: auto;
+}
+
+.Breads .shop-now-button{
+	background: #FA776B;
+	color: black;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 12px 24px;
+	margin: auto
+	transform: translate(-50%, -50%);
+	float: right;
+	border: 2px black solid;
+}
+
+.aboutskincare{
+	margin: auto;
+	text-align: left;
+	float: left;
+}
+
+.skinpar{
+	width: 50%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	text-align: left;
+	float: left;
+	margin: auto;
+	padding: 0px;
+}
+
+.Skincare {
+	position:relative;
+	width:100%;
+	height: initial;
+	background-color: #F0B47D;
+	column-count: 2;
+}
+
+.Skincare img{
+	text-align: left;
+	height: initial;
+	width: 30em;
+	margin: 2em auto;
+}
+
+.Skincare .shop-now-button{
+	background: #FA776B;
+	color: black;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 12px 24px;
+	transform: translate(-50%, -50%);
+	position: relative;
+	border: 2px black solid;
+}
+
+.Social{
+	position: relative;
+	width:100%;
+	height: initial;
+	background-color: #D4F2CE;
+	column-count: 2;
+}
+.getsocial{
+	width: 100%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	text-align: left;
+	float: left;
+	margin: 20px;
+	padding: 0px;
+}
+
+.join{
+margin:10px;
+font-variant: small-caps;
+	font-size: 1.5em;
+  letter-spacing: .1em;
+  padding:0 .2em;
+  background: #FA776B;
+  font-weight: bolder;
+  float: left;
+}
+
+
+.Social img{
+	width:30em;
+	height:initial;
+	margin: 2em auto;
+}
+
+
+.Story{
+	width: 100%;
+	height: initial;
+	text-align: left;
+	column-count: 2;
+	background-color: #F0DE7D;
+}
+.aboutourstory{
+	margin: auto;
+	text-align: left;
+	float: left;
+}
+
+.storypar{
+	width: 50%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:2em;
+}
+.Story img{
+	text-align: left;
+	height: initial;
+	width: 30em;
+	margin: 2em auto;
+}
+
+.Contact{
+	width: 100%;
+	height: initial;
+	text-align: left;
+	background-color: #FA776B;
+}
+
+.Contact img{
+	width:30em;
+	height:initial;
+	text-align:left;
+	margin: 2em auto;
+}
+
+footer {
+	padding: 20px;
+	background-color: lightgray;
+}
+
+footer p{
+	display: block;
+	box-sizing: border-box;
+	margin: 30px;
+}
+
+#wrapper{
+	width:1080px;
+	margin: 0 auto;
+}
