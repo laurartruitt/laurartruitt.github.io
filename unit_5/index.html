@@ -7,9 +7,8 @@
 
 <body>
 	<div id="wrapper">
-	<header>
+	<header class="clearfix">
   		<!--Logo and nav bar-->
-  		<div id="header">
 	  			<a href="#"><img id="logo" src="images/Logo.png" alt="homebred logo"></a>
 	</header>
 			<nav class="main-nav">
@@ -22,7 +21,7 @@
 					<li><a href="#">Cart</a></li>
 				</ul>
 			</nav>
-		</div>
+	</div>
 	
 	<!--Hero Top Image shop button-->
 	<div class="Hero">
@@ -35,21 +34,29 @@
 	</section>
 	<!--<section class="breads">//-->
 	<section class="Breads">	
-			<h2 class="aboutbreads">About Our Breads</h2>
+		<div class="aboutbreadcolumn">	
+			<h2>About Our Breads</h2>
 			<p class="breadpar">Handcrafted bread made from three simple ingredients <span class="ingredients">flour, water, and salt</span> - producing such wonderful results.</p>
+		</div>	
+		<div class="breadimgcolumn">
 			<img src="images/bread.jpg" alt="sourdough image">
 			<button class="shop-now-button">Shop Now!</button>
+		</div>	
 	</section>
 	<!--<section class="skincare">//-->
 	<section class="Skincare">	
-			<h2 class="aboutskincare">About Our Skincare</h2>
+		<div class="aboutskincolumn">
+			<h2>About Our Skincare</h2>
 			<p class="skinpar">Made from simple moisturizing ingredients. Say goodbye to cracked skin. Leave that behind in 2020!</p>
+		</div>
+		<div class="column">
 			<img src="images/skincare.jpg" alt="salve image"> 
 			<button class="shop-now-button">Shop Now!</button>
+		</div>
 	</section>
 	<!--<section class="social">//-->
-	<section class="Social">
-			<div>
+	<section class="Social clearfix">
+			<div class="column">
 				<h2 class="getsocial"><span class="join">Join Our Social Movement</h2></span>
 				<a href="http://instagram.com/laurartruitt">@HomeBred</a>
 				<p>#HomeBred</p>

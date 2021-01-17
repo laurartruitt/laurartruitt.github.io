@@ -2,9 +2,10 @@
 
 /*box-sizing: border-box;*/
 *{
-	padding:0;
+	box-sizing: border-box;
 	margin: 0;
 }
+
 
 
 body {
@@ -14,19 +15,24 @@ body {
 	background-color: #E1D6D6;
 }
 
-h1, h2, h3, h4 {
-	font-size: 3em;
-	width:25%;
-	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	color: #222222;
-	font-weight: bold;
+h1, h2, h3, h4 {	
 	margin: auto;
+	font-weight: bold;
+	color: black;
 }
 
 h2{
 	text-transform: uppercase;
 	width: 90%;
 }
+
+.clearfix {
+	display:block;
+	clear:both;
+	content:"";
+}
+
+
 
 p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -41,7 +47,6 @@ a{
 }
 
 nav {
-	background-color: #FAB982;
 	color: black;
 	float: right;
 	padding: 20px;
@@ -51,8 +56,7 @@ nav {
 #logo{
 	float: left;
 	height: 100px;
-	position: relative;\
-	margin: 10px 15px;
+	position: relative;
 }
 
 nav ul {
@@ -76,6 +80,10 @@ nav a {
 	position: relative;
 	width: 100%;
 	height: initial;
+	background: url(../images/hero.png);
+	text-align: center;
+	background-size: cover;
+	background: no-repeat;
 }
 
 .Hero img{
@@ -101,11 +109,10 @@ nav a {
 
 .Summary h1{
 	font-size: 6em;
-	text-align: left;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
-	padding: 20px;
+	padding: 0 2em;
 	background-color:#E09983;
 	width: 100%;
 	border-color: black;
@@ -123,19 +130,27 @@ font-variant: small-caps;
   float: left;
 }
 
-.aboutbreads{
-	margin: auto;
-	text-align: left;
-	float: left;
+
+.aboutbreadcolumn{
+	width:50%;
+	float: right;
+	position: relative;
+	padding: 2em;
 }
 
+.breadimgcolumn{
+	width:50%;
+	float: left;
+	position: relative;
+	padding: 2em;
+}
 .Breads{
 	width:100%;
-	padding: 10px 200px 10px 40px;
 	background-color: #F0E4A9;
-	margin: auto;
 	column-count: 2;
 }
+
+
 
 .breadpar{
 	width: 50%;
@@ -156,17 +171,18 @@ font-variant: small-caps;
 
 .Breads .shop-now-button{
 	background: #FA776B;
+	position: absolute;
 	color: black;
 	top: 50%;
 	left: 50%;
 	cursor: pointer;
 	font-size: 1em;
 	padding: 12px 24px;
-	margin: auto
 	transform: translate(-50%, -50%);
-	float: right;
 	border: 2px black solid;
 }
+
+
 
 .aboutskincare{
 	margin: auto;
@@ -188,15 +204,13 @@ font-variant: small-caps;
 	position:relative;
 	width:100%;
 	height: initial;
-	background-color: #F0B47D;
-	column-count: 2;
+	background-color:#F0B47D;
+	padding: 10px;
 }
 
 .Skincare img{
-	text-align: left;
-	height: initial;
-	width: 30em;
-	margin: 2em auto;
+	width:100%;
+	display: block;
 }
 
 .Skincare .shop-now-button{
