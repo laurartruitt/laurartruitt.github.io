@@ -46,10 +46,11 @@ nav {
 
 nav a {
 	text-decoration: none;
-	margin: 40px;
-	color: yellow;
+	margin: 20px;
+	color: #F57C3C;
 	cursor: pointer;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 ul{
@@ -108,7 +109,8 @@ ul{
 	height: 450px;
 }
 
-h2{
+
+.aboutbreadcolumn{
 	text-transform: uppercase;
 	font-size: 2.5em;
 	padding-left: 20px;
@@ -128,19 +130,16 @@ font-variant: small-caps;
   padding: 2em;
 }
 
-/*why is this only working if have }} at the end?*/
+
+
 .Breads .column{
   float:right;
-}}
+}
 
-.breadpar{
+#breadpar{
 	width: 50%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:1.52em;
-	float: right;
-	margin: 10px;
-	padding-right: 4.5em;
-	text-align: right;
 }
 
 
@@ -181,23 +180,24 @@ clearfix: after {
 
 .Skincare .column{
   float:left;
-}}
+}
 
 
-.skinpar{
-	width: 50%;
+#skinpar{
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:1.52em;
-	float: left;
-	margin: 10px;
-	padding-right: 4.5em;
+}
 
+.aboutskincare{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-left: 20px;
 }
 
 .Skincare {
 	width:100%;
 	background-color: #F0B47D;
-	height: 400px;
+	height: 420px;
 }
 
 .Skincare img{
@@ -233,18 +233,12 @@ clearfix: after {
 	position: relative;
 	display: block;
 }
-.getsocial{
-	width: 100%;
-	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:2.52em;
-	text-align: left;
-	padding-right: 60px;
-}
+
 
 .join{
   margin:10px;
   font-variant: small-caps;
-	font-size: 1.5em;
+font-size: 2.5em;
   letter-spacing: .1em;
   padding:0 .4em;
   background: #FA776B;
@@ -270,6 +264,9 @@ clearfix: after {
 
 .aboutourstory{
 	float: left;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-left: 20px;
 }
 
 .storypar{
@@ -301,9 +298,24 @@ clearfix: after {
 	margin-bottom: 10px;
 }
 
+
+.contacth{
+	float: left;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-left: 20px;
+}
+
+.myTextBox{
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+
 footer {
 	padding: 20px;
 	background-color: lightgray;
+	clear: both;
 }
 
 footer p{
@@ -313,6 +325,7 @@ footer p{
 }
 
 #wrapper{
-	width:1080px;
-	margin: 0 auto;
+	width: auto;
+	margin: auto;
+	padding: auto;
 }
