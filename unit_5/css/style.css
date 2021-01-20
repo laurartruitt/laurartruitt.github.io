@@ -44,7 +44,7 @@ nav {
 	float: right;
 }
 
-nav a {
+nav a /* :link (pseudoclass) not working*/{
 	text-decoration: none;
 	margin: 20px;
 	color: #F57C3C;
@@ -52,6 +52,11 @@ nav a {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+/*pseudo classes not working;
+nav a:visited{
+	color: #F57C3C;
+}
+*/
 
 ul{
 	list-style: none;
