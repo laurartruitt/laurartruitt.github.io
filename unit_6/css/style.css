@@ -13,7 +13,7 @@ body {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size: 16px; /*1em=16px*/
 	line-height: 1.32;
-	background-color: #E1D6D6;
+	background-color:#FEF2E3;
 }
 
 
@@ -38,16 +38,19 @@ nav {
 	padding-top: 50px;
 	float: right;
 }
-
+.nav a:hover{
+	color: #403527;
+}
 
 nav a /* :link (pseudoclass) not working*/{
 	text-decoration: none;
 	margin: 20px;
-	color: #F57C3C;
+	color: #F2C6B6;
 	cursor: pointer;
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
 /*pseudo classes not working;
 nav a:visited{
 	color: #F57C3C;
@@ -74,6 +77,7 @@ ul{
 	width: 100%;
 	height: initial;
 	margin:0;
+	opacity: 0.7;
 }
 
 
@@ -82,31 +86,30 @@ ul{
 	top: 50%;
 	left: 50%;
 	cursor: pointer;
-	color: white;
+	color: #403527;
 	font-size: 2em;
 	padding: 12px 24px;
-	background-color: black;
+	background-color: #F2C6B6;
 	border-radius: 5px;
 	transform: translate(-50%, -50%);
+	border: 2px white solid;
 }
 
 .Summary h1{
 	font-size: 4em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	color: #222222;
+	color: white;
 	font-weight: bold;
 	padding: 0 2em;
-	background-color:#E09983;
-	border-color: black;
-	border-style: solid; 
+	background-color:#403527;
 	text-align: center;
-	margin-top: -4px;
+	margin-top: -5px;
 	display: block;
 }
 
 .Breads{
 	width:100%;
-	background-color: #F0E4A9;
+	background-color:#F4D4B7;
 	height: 450px;
 }
 
@@ -115,13 +118,16 @@ ul{
 	text-transform: uppercase;
 	font-size: 2.5em;
 	padding-left: 20px;
+	color: #403527;
+	text-decoration: underline;
 }
 
 .ingredients {
   font-variant: small-caps;
   letter-spacing: .2em;
   padding:0 .2em;
-  background: #FA776B;
+  background: #BF755A;
+	color: white;
   font-weight: bolder;
 }
 .column{
@@ -140,6 +146,7 @@ ul{
 	width: 50%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:1.52em;
+	color: #403527;
 }
 
 
@@ -152,28 +159,18 @@ ul{
 	display: block;
 }
 
-/*clearfix:after{ not working and neither is :hover;
-clearfix: after {
-	clear:both;
-	visibility: hidden;
-	display: block;
-	font-size:0;
-	content:"";
-	clear: both;
-	height:0;
-}*/
-
 
 .Breads .shop-now-button{
-	background: #FA776B;
+	background: #F2C6B6;
 	position: absolute;
   display: inline-block;
-	color: black;
+	color: #403527;
 	cursor: pointer;
 	font-size: 1em;
 	padding: 12px 24px;
 	transform: translate(255%, -400%);
-	border: 2px black solid;
+	border: 2px white solid;
+	border-radius: 5px;
 }
 
 
@@ -183,20 +180,23 @@ clearfix: after {
 }
 
 
-#skinpar{
+.skinpar{
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:1.52em;
+	font-size:1.9em;
+	color: white;
 }
 
 .aboutskincare{
 	text-transform: uppercase;
 	font-size: 2.5em;
 	padding-left: 20px;
+	color: white;
+	text-decoration: underline;
 }
 
 .Skincare {
 	width:100%;
-	background-color: #F0B47D;
+	background-color: #BF755A;
 	height: 420px;
 }
 
@@ -210,8 +210,8 @@ clearfix: after {
 }
 
 .Skincare .shop-now-button{
-	background: #FA776B;
-	color: black;
+	background: #F2C6B6;
+	color: #403527;
 	top: 50%;
 	left: 50%;
 	cursor: pointer;
@@ -219,8 +219,13 @@ clearfix: after {
 	padding: 12px 24px;
 	transform: translate(-40%, -350%);
 	position: relative;
-	border: 2px black solid;
+	border: 2px white solid;
+	border-radius: 5px;
 }
+
+.shop-now-button:hover{
+	color: white;
+	}
 
 .Social .column{
   float:right;
@@ -228,7 +233,7 @@ clearfix: after {
 
 .Social{
 	width:100%;
-	background-color: #D4F2CE;
+	background-color: #F4D4B7;
 	height: initial;
 	position: relative;
 	display: block;
@@ -242,12 +247,13 @@ clearfix: after {
 .join{
   margin:10px;
   font-variant: small-caps;
-font-size: 2.5em;
+  font-size: 2.5em;
   letter-spacing: .1em;
   padding:0 .4em;
-  background: #FA776B;
+  background: #736356;
   font-weight: bolder;
-  float: left;
+	color: white;
+  float: right;
 	text-align: center;
 }
 
@@ -260,7 +266,7 @@ font-size: 2.5em;
 
 .Story{
   width:100%;
-	background-color: #F0DE7D;
+	background-color: #DBBFA4;
 	height: initial;
 	position: relative;
 	display: block;
@@ -277,7 +283,7 @@ font-size: 2.5em;
 .storypar{
 	width: 100%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:.9em;
+	font-size:20px;
 }
 .Story img{
 	height: initial;
@@ -292,7 +298,7 @@ font-size: 2.5em;
 	width: 100%;
 	height: initial;
 	text-align: left;
-	background-color: #FA776B;
+	background-color: #F5D5B8;
 	float: right;
 }
 
@@ -330,7 +336,7 @@ font-size: 2.5em;
 
 footer {
 	padding: 20px;
-	background-color: lightgray;
+	background-color: #f8edeb;
 	clear: both;
 }
 
