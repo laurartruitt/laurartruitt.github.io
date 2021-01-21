@@ -16,12 +16,6 @@ body {
 	background-color: #E1D6D6;
 }
 
-h1, h2, h3, h4 {	
-	font-weight: bolder;
-	color: black;
-}
-
-
 
 p {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -36,6 +30,7 @@ p {
 	float: left;
 	height: 100px;
 	position: relative;
+	padding: 5px;
 }
 
 nav {
@@ -43,6 +38,7 @@ nav {
 	padding-top: 50px;
 	float: right;
 }
+
 
 nav a /* :link (pseudoclass) not working*/{
 	text-decoration: none;
@@ -95,7 +91,7 @@ ul{
 }
 
 .Summary h1{
-	font-size: 6em;
+	font-size: 4em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: #222222;
 	font-weight: bold;
@@ -122,12 +118,11 @@ ul{
 }
 
 .ingredients {
-font-variant: small-caps;
+  font-variant: small-caps;
   letter-spacing: .2em;
   padding:0 .2em;
   background: #FA776B;
   font-weight: bolder;
-  float: right;
 }
 .column{
   width: 50%;
@@ -239,6 +234,10 @@ clearfix: after {
 	display: block;
 }
 
+.socialtag{
+	text-align: center;
+	font-weight: bold;
+}
 
 .join{
   margin:10px;
@@ -249,6 +248,7 @@ font-size: 2.5em;
   background: #FA776B;
   font-weight: bolder;
   float: left;
+	text-align: center;
 }
 
 
@@ -268,23 +268,24 @@ font-size: 2.5em;
 }
 
 .aboutourstory{
-	float: left;
 	text-transform: uppercase;
 	font-size: 2.5em;
 	padding-left: 20px;
+
 }
 
 .storypar{
-	padding-top:40px;
 	width: 100%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:2em;
+	font-size:.9em;
 }
 .Story img{
-	text-align: left;
 	height: initial;
 	width: 30em;
-	margin: 2em auto;
+	padding: 10px;
+	float: right;
+	margin: 30px;
+
 }
 
 .Contact{
@@ -327,6 +328,7 @@ footer p{
 	display: block;
 	box-sizing: border-box;
 	margin: 30px;
+	font-size: 1em;
 }
 
 #wrapper{
