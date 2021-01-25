@@ -60,7 +60,9 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-
+nav a:hover{
+	background:white;
+}
 
 .Hero{
 	position: relative;
@@ -324,14 +326,18 @@ ul{
 	font-size: 1.5em;
 }
 .contactbutton{
-	background: lightgray;
-	color: black;
+	background: #403527;
+	color: white;
 	cursor: pointer;
 	font-size: 1em;
 	border: 2px black solid;
 	cursor: pointer;
 	padding: 10px;	
 	margin: 10px;
+}
+.contactbutton:hover{
+	background: white;
+	color: #403527;
 }
 
 #form{
