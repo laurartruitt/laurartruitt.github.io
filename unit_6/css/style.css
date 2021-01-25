@@ -38,9 +38,7 @@ nav {
 	padding-top: 50px;
 	float: right;
 }
-.nav a:hover{
-	color: #403527;
-}
+
 
 nav a /* :link (pseudoclass) not working*/{
 	text-decoration: none;
@@ -62,6 +60,7 @@ ul{
 	margin: 0;
 	padding: 0;
 }
+
 
 .Hero{
 	position: relative;
@@ -93,6 +92,7 @@ ul{
 	border-radius: 5px;
 	transform: translate(-50%, -50%);
 	border: 2px white solid;
+
 }
 
 .Summary h1{
@@ -107,10 +107,17 @@ ul{
 	display: block;
 }
 
+.clearfix:after{
+	display: block;
+	clear: both;
+	content: "";
+		height:0;
+}
+
 .Breads{
 	width:100%;
 	background-color:#F4D4B7;
-	height: 450px;
+	clear: both;
 }
 
 
@@ -151,11 +158,7 @@ ul{
 
 
 .Breads img{
-	height: initial;
-	padding-top: 20px;
-	padding-right: 200px;
-	margin-right: 60px;
-	width: 45em;
+	width: 100%;
 	display: block;
 }
 
@@ -168,7 +171,7 @@ ul{
 	cursor: pointer;
 	font-size: 1em;
 	padding: 12px 24px;
-	transform: translate(255%, -400%);
+	transform: translate(215%, -375%);
 	border: 2px white solid;
 	border-radius: 5px;
 }
@@ -201,11 +204,7 @@ ul{
 }
 
 .Skincare img{
-	height: initial;
-	padding-top: 20px;
-	padding-right: 250px;
-	margin-right: 60px;
-	width: 45em;
+	width: 100%;
 	display: block;
 }
 
@@ -225,7 +224,7 @@ ul{
 
 .shop-now-button:hover{
 	color: white;
-	}
+}
 
 .Social .column{
   float:right;
@@ -294,6 +293,11 @@ ul{
 
 }
 
+
+.input{
+	margin-bottom: 2em;
+}
+
 .Contact{
 	width: 100%;
 	height: initial;
@@ -314,12 +318,10 @@ ul{
 .contacth{
 	text-transform: uppercase;
 	font-size: 2.5em;
-	padding-left: 20px;
 }
 
 .myTextBox{
 	font-size: 1.5em;
-	margin: 20px;
 }
 .contactbutton{
 	background: lightgray;
@@ -327,12 +329,35 @@ ul{
 	cursor: pointer;
 	font-size: 1em;
 	border: 2px black solid;
-	padding: 5px;
-	position: absolute;
 	cursor: pointer;
 	padding: 10px;	
+	margin: 10px;
 }
 
+#form{
+	display: block;
+}
+
+#fname{
+	width: 40%;
+	display: block;
+	background-color: #F2C6B6;
+	color: #403527;
+}
+
+#email{
+	display: block;
+	width: 40%;
+	background-color: #F2C6B6;
+	color: #403527;
+}
+#message{
+	display: block;
+	width: 40%;
+	padding: 30px;
+	background-color: #F2C6B6;
+	color: #403527;
+}
 
 footer {
 	padding: 20px;
