@@ -166,16 +166,19 @@ nav a:hover{
 
 
 .Breads .shop-now-button{
-	background: #F2C6B6;
+	background: #403527;
 	position: absolute;
   display: inline-block;
-	color: #403527;
+	color: white;
 	cursor: pointer;
 	font-size: 1em;
 	padding: 12px 24px;
-	transform: translate(215%, -375%);
+	transform: translate(465%, 0%);
 	border: 2px white solid;
 	border-radius: 5px;
+}
+.Breads .shop-now-button:hover{
+color: #F2C6B6
 }
 
 
@@ -218,7 +221,7 @@ nav a:hover{
 	cursor: pointer;
 	font-size: 1em;
 	padding: 12px 24px;
-	transform: translate(-40%, -350%);
+	transform: translate(-490%, -160%);
 	position: relative;
 	border: 2px white solid;
 	border-radius: 5px;
