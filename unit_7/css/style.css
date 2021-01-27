@@ -393,5 +393,47 @@ footer p{
 		float:none;
 		text-align: center;
 	}
+	.Story{
+		float:none;
+		text-align: center;
+	}
 	
+}	
+
+@media only screen and (max-width: 1038px){
+	.Social{
+		float:none;
+		text-align: center;
+	}
+	.Contact{
+		float:none;
+		text-align: center;
+	}
+	.Skincare{
+		float:none;
+		text-align: center;
+	}
+	.Breads{
+		float:none;
+		text-align: center;
+	}
+@media only screen and (max-width: 400px){
+.Skincare .shop-now-button{
+	background: #F2C6B6;
+	color: #403527;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	font-size: 1em;
+	padding: .75em 1.5em;
+	transform: translate(-490%, -160%);
+	position: relative;
+	border: .13em white solid;
+	border-radius: .31em;
+}
+.Breads .shop-now-button
+}
+	.storypar{
+		font-size: 1em;
+	}
 }	
