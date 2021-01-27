@@ -383,3 +383,15 @@ footer p{
 	margin: auto;
 	padding: auto;
 }
+
+@media only screen and (max-width: 1050px){
+	footer p{
+		float:none;
+		text-align: center;
+	}
+	.storypar{
+		float:none;
+		text-align: center;
+	}
+	
+}	
