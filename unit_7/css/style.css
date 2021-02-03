@@ -150,9 +150,9 @@ nav a:hover{
 }
 
 .Breads img{
-	width: 50%;
-	max-width: 80em;
-	margin-top: 20px;
+	min-width: 50%;
+	max-width: 100%;
+	display: block;
 }
 
 
@@ -185,16 +185,22 @@ color: #F2C6B6
 	padding-left: .7em;
 	color: white;
 	text-decoration: underline;
+	max-width: 20em;
 }
+
+
 
 .Skincare {
 	width:100%;
-	background-color: #BF755A;
+	background-color:#BF755A;
+	clear: both;
+	margin: auto;
 
 }
 
 .Skincare img{
-	width: 50%;
+  min-width: 50%;
+	max-width: 100%;
 	display: block;
 }
 
@@ -226,7 +232,6 @@ color: #F2C6B6
 .Social{
 	width:100%;
 	background-color: #F4D4B7;
-	max-width: 80em;
 	margin: auto;
 }
 
@@ -250,39 +255,41 @@ color: #F2C6B6
 
 
 .Social img{
-	width:50%;
+	width:35%;
 	height:initial;
 	padding:2.6em;
+	margin: 0 4em;
 }
 
-.Story{
-  width:100%;
-	background-color: #DBBFA4;
-	height: initial;
-	position: relative;
-	display: block;
-	column-count: 2;
+.Story .column{
+	float: right;
+}
+.storypar{
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.25em;
 }
 
 .aboutourstory{
 	text-transform: uppercase;
 	font-size: 2.5em;
-	padding-left: .4em;
-
+	padding-left: .7em;
+	text-decoration: underline;
+	max-width: 20em;
 }
 
-.storypar{
-	width: 100%;
-	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:1.25em;
+.Story{
+  width:100%;
+	background-color: #DBBFA4;
+	clear: both;
+	margin: auto;
+	column-count: 2;
 }
+
+
 .Story img{
-	height: initial;
-	width: 30em;
-	padding: .6em;
-	float: right;
-	margin: 1.8em;
-
+  width: 100%;
+	display: block;
+	padding: 1em;
 }
 
 
@@ -298,13 +305,14 @@ color: #F2C6B6
 	float: right;
 }
 
+
 .Contact img{
 	width:30em;
 	height:initial;
 	text-align:left;
 	margin-right: 3.1em;
 	margin-bottom: .6em;
-	margin-top: 1em;
+	padding: 1em;
 }
 
 
@@ -370,50 +378,43 @@ footer p{
 }
 
 #wrapper{
-	width: auto;
-	margin: auto;
-	padding: auto;
+	min-width: 100%;
 }
 
-/*@media only screen and (max-width: 1050px){
-	footer p{
-		float:none;
-		text-align: center;
-	}
-	.storypar{
-		float:none;
-		text-align: center;
-	}
-	.Story{
-		float:none;
-		text-align: center;
-	}
-	
-}	
-
-@media only screen and (max-width: 1038px){
-	.Social{
-		float:none;
-		text-align: center;
-	}
+@media only screen and (max-width: 1060px){
 	.Contact{
 		float:none;
 		text-align: center;
+    width: auto;
+		display: block;
 	}
-	.Skincare{
-		float:none;
-		text-align: center;
-	}
-	.Breads{
-		float:none;
-		text-align: center;
-	}
-@media only screen and (max-width: 500px){
+	
+}
+
+@media only screen and (min-width: 500px) and (max-width: 816px){
 	nav a{
-		float: none;
-		width: auto;
+		display: block;	
 	}
-}	*/
+	
+	.Breads {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+	.Skincare {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+	.Social {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+}
+
 
 
 
