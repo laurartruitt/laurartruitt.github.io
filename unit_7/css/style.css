@@ -150,7 +150,6 @@ nav a:hover{
 }
 
 .Breads img{
-	min-width: 50%;
 	max-width: 100%;
 	display: block;
 }
@@ -199,7 +198,6 @@ color: #F2C6B6
 }
 
 .Skincare img{
-  min-width: 50%;
 	max-width: 100%;
 	display: block;
 }
@@ -226,13 +224,14 @@ color: #F2C6B6
 }
 
 .Social .column{
-  float:right;
+  float: right;
 }
 
 .Social{
 	width:100%;
 	background-color: #F4D4B7;
 	margin: auto;
+	clear: both;
 }
 
 .socialtag{
@@ -303,6 +302,7 @@ color: #F2C6B6
 	text-align: left;
 	background-color: #F5D5B8;
 	float: right;
+	clear: both;
 }
 
 
@@ -396,7 +396,55 @@ footer p{
 		display: block;	
 	}
 	
-	.Breads {
+	.Breads{
+		float:none;
+		text-align: center;
+    width: 100%;
+		display: block;
+	}
+	
+	.Breads img{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.aboutbreadcolumn{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	#breadpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+
+	
+	.Skincare {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+	.Social {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	nav a{
+		display: block;	
+	}
+	
+		.Breads {
 		display: block;
 		float: none;
 		min-width: 100%;
@@ -414,7 +462,6 @@ footer p{
 		min-width: 100%;
 	}
 }
-
 
 
 
