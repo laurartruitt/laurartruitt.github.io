@@ -394,6 +394,7 @@ footer p{
 @media only screen and (min-width: 500px) and (max-width: 816px){
 	nav a{
 		display: block;	
+		 border: 1px solid black;	
 	}
 	
 	.Breads{
@@ -406,7 +407,7 @@ footer p{
 	.Breads img{
 		float: none;
 		text-align: center;
-		width: 100%;
+		width: 50%;
 	}
 	
 	.aboutbreadcolumn{
@@ -432,22 +433,72 @@ footer p{
 		min-width: 100%;
 	}
 	
+	.skinpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+	
+	.aboutskincare{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	.Skincare img{
+		float: none;
+		text-align: center;
+		width: 50%;
+	}
+	
 	.Social {
 		display: block;
 		float: none;
-		min-width: 100%;
+		min-width: 50%;
+	}
+	
+	.join {
+		width: auto;
+		font-size: 2em;
+		text-align: center;
+	}
+	
+	.socialtag{
+			width: auto;
+		font-size: 1.5em;
+		text-align: center;
 	}
 	
 	.Summary h1{
 		font-size: 2em;
 	}
 	
+	.shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Skincare .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Breads .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+.Contact{
+		float:none;
+		text-align: center;
+    width: auto;
+		display: block;
+	}
+	
 }
 
 @media only screen and (max-width: 700px) {
-	nav a{
-		display: block;	
-	}
 	
 		.Breads {
 		display: block;
@@ -455,10 +506,54 @@ footer p{
 		min-width: 100%;
 	}
 	
+	.Breads img{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.aboutbreadcolumn{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	#breadpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+	
 	.Skincare {
 		display: block;
 		float: none;
 		min-width: 100%;
+	}
+	
+	.skinpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+	
+	.aboutskincare{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	.Skincare img{
+		float: none;
+		text-align: center;
+		width: 100%;
 	}
 	
 	.Social {
@@ -468,19 +563,45 @@ footer p{
 	}
 	
 nav a{
-		  display: block;	
+		 display: block;	
+	   float: center;    
 	   border: 1px solid black;	
 	   padding: 2px;
 	   text-align: center;
 	  }
 	
 	#header{
-		display:block;
+		display:inline-block;
 		text-align: center;
 	}
 	
 	.Summary h1{
 		font-size: 1.5em;
+	}
+	.shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Skincare .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Breads .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	
+	.Contact{
+		float:none;
+		text-align: center;
+    	width: auto;
+		display: block;
+	}
+	
+	.Contact img{
+		float:none;
+		text-align: center;
+		display: block;
 	}
 	
 }
