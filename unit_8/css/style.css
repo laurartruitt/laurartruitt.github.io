@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*box-sizing: border-box;*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+
+
+body {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size: 16px; /*1em=16px*/
+	line-height: 1.32;
+	background-color:#FEF2E3;
+}
+
+
+p {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:2em;
+	text-align: left;
+	margin: .8em;
+}
+
+
+
+#logo{
+	float: left;
+	height: 6.25em;
+	position: relative;
+	padding: .32em;
+}
+
+nav {
+	letter-spacing: .063em;
+	padding-top: 3.13em;
+	float: right;
+}
+
+
+nav a{
+	text-decoration: none;
+	margin: 1.25em;
+	color: #F2C6B6;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav a:hover{
+	background:white;
+}
+
+.Hero{
+	position: relative;
+	height: initial;
+	background: url(../images/hero.png);
+	text-align: center;
+	background-size: cover;
+	background: no-repeat;
+}
+
+.Hero img{
+	text-align: center;
+	width: 100%;
+	height: initial;
+	margin:0;
+	opacity: 0.7;
+}
+
+
+.Hero .shop-now-button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	color: #403527;
+	font-size: 2em;
+	padding: .35em .4em;
+	background-color: #F2C6B6;
+	border-radius: .28em;
+	transform: translate(-50%, -50%);
+	border: .09em white solid;
+
+}
+
+.Summary h1{
+	font-size: 4em;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	color: white;
+	font-weight: bold;
+	padding: .5em 3em;
+	background-color:#403527;
+	text-align: center;
+	margin-top: -.08em;
+	display: block;
+}
+
+.clearfix:after{
+	display: block;
+	clear: both;
+	content: "";
+	height:0;
+}
+.Breads{
+	width:100%;
+	background-color:#F4D4B7;
+	clear: both;
+	margin: auto;
+
+}
+.aboutbreadcolumn{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-left: .7em;
+	color: #403527;
+	text-decoration: underline;
+	max-width: 20em;
+}
+
+.ingredients {
+  font-variant: small-caps;
+  letter-spacing: .2em;
+  padding:0 .2em;
+  background: #BF755A;
+	color: white;
+  font-weight: bolder;
+}
+.column{
+  width: 50%;
+  position: relative;
+  padding: 2em;
+	float: left;
+}
+
+
+#breadpar{
+	width: 50%;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.52em;
+	color: #403527;
+}
+
+.Breads img{
+	max-width: 100%;
+	display: block;
+}
+
+
+.Breads .shop-now-button{
+	background: #403527;
+  display: inline-block;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	padding: .75em 1.5em;
+	border: .13em white solid;
+	border-radius: .31em;
+	transform: translate(100%);
+}
+.Breads .shop-now-button:hover{
+color: #F2C6B6
+}
+.Skincare .column{
+  float:right;
+}
+.skinpar{
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.9em;
+	color: white;
+}
+
+.aboutskincare{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-left: .7em;
+	color: white;
+	text-decoration: underline;
+	max-width: 20em;
+}
+
+
+
+.Skincare {
+	width:100%;
+	background-color:#BF755A;
+	clear: both;
+	margin: auto;
+
+}
+
+.Skincare img{
+	max-width: 100%;
+	display: block;
+}
+
+.Skincare .shop-now-button{
+	background: #403527;
+  	display: inline-block;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	padding: .75em 1.5em;
+	border: .13em white solid;
+	border-radius: .31em;
+	transform: translate(100%);
+}
+	
+
+.shop-now-button:hover{
+	color: white;
+}
+
+.Skincare .shop-now-button:hover{
+color: #F2C6B6
+}
+
+.Social .column{
+  float: right;
+}
+
+.Social{
+	width:100%;
+	background-color: #F4D4B7;
+	margin: auto;
+	clear: both;
+}
+
+.socialtag{
+	text-align: center;
+	font-weight: bold;
+}
+
+.join{
+  margin:10px;
+  font-variant: small-caps;
+  font-size: 2.5em;
+  letter-spacing: .1em;
+  padding:0 .4em;
+  background: #736356;
+  font-weight: bolder;
+	color: white;
+  float: right;
+	text-align: center;
+}
+
+
+.Social img{
+	width:35%;
+	height:initial;
+	padding:2.6em;
+	margin: 0 4em;
+}
+
+.Story .column{
+	float: right;
+}
+.storypar{
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size:1.25em;
+}
+
+.aboutourstory{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-left: .7em;
+	text-decoration: underline;
+	max-width: 20em;
+}
+
+.Story{
+  width:100%;
+	background-color: #DBBFA4;
+	clear: both;
+	margin: auto;
+	column-count: 2;
+}
+
+
+.Story img{
+  width: 100%;
+	display: block;
+	padding: 1em;
+}
+
+
+.input{
+	margin-bottom: 2em;
+}
+
+.Contact{
+	width: 100%;
+	height: initial;
+	text-align: left;
+	background-color: #F5D5B8;
+	float: right;
+	clear: both;
+}
+
+
+.Contact img{
+	width:30em;
+	height:initial;
+	text-align:left;
+	margin-right: 3.1em;
+	margin-bottom: .6em;
+	padding: 1em;
+}
+
+
+.contacth{
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+
+.myTextBox{
+	font-size: 1.5em;
+}
+.contactbutton{
+	background: #403527;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	border: .1em black solid;
+	cursor: pointer;
+	padding: .6em;	
+	margin: .6em;
+}
+.contactbutton:hover{
+	background: white;
+	color: #403527;
+}
+
+#form{
+	display: block;
+}
+
+#fname{
+	width: 40%;
+	display: block;
+	background-color: #F2C6B6;
+	color: #403527;
+}
+
+#email{
+	display: block;
+	width: 40%;
+	background-color: #F2C6B6;
+	color: #403527;
+}
+#message{
+	display: block;
+	width: 40%;
+	padding: 30px;
+	background-color: #F2C6B6;
+	color: #403527;
+}
+
+footer {
+	padding: 1.25em;
+	background-color: #f8edeb;
+	clear: both;
+}
+
+footer p{
+	display: block;
+	box-sizing: border-box;
+	margin: 1.88em;
+	font-size: 1em;
+}
+
+#wrapper{
+	min-width: 100%;
+}
+
+@media only screen and (max-width: 1060px){
+	.Contact{
+		float:none;
+		text-align: center;
+    width: auto;
+		display: block;
+	}
+	
+}
+
+@media only screen and (min-width: 500px) and (max-width: 816px){
+	nav a{
+		display: block;	
+		 border: 1px solid black;	
+	}
+	
+	.Breads{
+		float:none;
+		text-align: center;
+    width: 100%;
+		display: block;
+	}
+	
+	.Breads img{
+		float: none;
+		text-align: center;
+		width: 50%;
+	}
+	
+	.aboutbreadcolumn{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	#breadpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+
+	
+	.Skincare {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+	.skinpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+	
+	.aboutskincare{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	.Skincare img{
+		float: none;
+		text-align: center;
+		width: 50%;
+	}
+	
+	.Social {
+		display: block;
+		float: none;
+		min-width: 50%;
+	}
+	
+	.join {
+		width: auto;
+		font-size: 2em;
+		text-align: center;
+	}
+	
+	.socialtag{
+			width: auto;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	
+	.Summary h1{
+		font-size: 2em;
+	}
+	
+	.shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Skincare .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Breads .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+.Contact{
+		float:none;
+		text-align: center;
+    width: auto;
+		display: block;
+	}
+	
+}
+
+@media only screen and (max-width: 700px) {
+	
+		.Breads {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+	.Breads img{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.aboutbreadcolumn{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	#breadpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+	
+	.Skincare {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+	.skinpar{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1em;
+	}
+	
+	.aboutskincare{
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: initial;
+		font-size: 1.5em;
+	}
+	
+	.Skincare img{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.Social {
+		display: block;
+		float: none;
+		min-width: 100%;
+	}
+	
+nav a{
+		 display: block;	
+	   float: center;    
+	   border: 1px solid black;	
+	   padding: 2px;
+	   text-align: center;
+	  }
+	
+	#header{
+		display:inline-block;
+		text-align: center;
+	}
+	
+	.Summary h1{
+		font-size: 1.5em;
+	}
+	.shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Skincare .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	.Breads .shop-now-button{
+		float: center;
+		text-align: center;
+	}
+	
+	.Contact{
+		float:none;
+		text-align: center;
+    	width: auto;
+		display: block;
+	}
+	
+	.Contact img{
+		float:none;
+		text-align: center;
+		display: block;
+	}
+	
+}
+
+
+
