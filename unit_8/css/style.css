@@ -599,9 +599,7 @@ nav a{
 	}
 	
 	.Contact img{
-		float:none;
-		text-align: center;
-		display: block;
+		display: none;
 	}
 	
 }
