@@ -93,7 +93,7 @@ nav a:hover{
 }
 
 .Summary h1{
-	font-size: 4em;
+	font-size: 3.5em;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	color: white;
 	font-weight: bold;
@@ -101,7 +101,7 @@ nav a:hover{
 	background-color:#403527;
 	text-align: center;
 	margin-top: -.08em;
-	display: block;
+
 }
 
 .clearfix:after{
@@ -122,7 +122,6 @@ nav a:hover{
 	font-size: 2.5em;
 	padding-left: .7em;
 	color: #403527;
-	text-decoration: underline;
 	max-width: 20em;
 }
 
@@ -142,15 +141,16 @@ nav a:hover{
 }
 
 
-#breadpar{
-	width: 50%;
+.breadpar{
+	width: 100%;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size:1.52em;
+	font-size:1.9em;
 	color: #403527;
 }
 
 .Breads img{
 	max-width: 100%;
+	width: 100%
 	display: block;
 }
 
@@ -183,7 +183,6 @@ color: #F2C6B6
 	font-size: 2.5em;
 	padding-left: .7em;
 	color: white;
-	text-decoration: underline;
 	max-width: 20em;
 }
 
@@ -198,8 +197,8 @@ color: #F2C6B6
 }
 
 .Skincare img{
+  display: block;
 	max-width: 100%;
-	display: block;
 }
 
 .Skincare .shop-now-button{
@@ -211,7 +210,7 @@ color: #F2C6B6
 	padding: .75em 1.5em;
 	border: .13em white solid;
 	border-radius: .31em;
-	transform: translate(100%);
+	transform: translate(50%);
 }
 	
 
@@ -220,7 +219,7 @@ color: #F2C6B6
 }
 
 .Skincare .shop-now-button:hover{
-color: #F2C6B6
+color: #F2C6B6;
 }
 
 .Social .column{
@@ -242,7 +241,7 @@ color: #F2C6B6
 .join{
   margin:10px;
   font-variant: small-caps;
-  font-size: 2.5em;
+  font-size: 1.8em;
   letter-spacing: .1em;
   padding:0 .4em;
   background: #736356;
@@ -254,10 +253,8 @@ color: #F2C6B6
 
 
 .Social img{
-	width:35%;
-	height:initial;
+	width:49%;
 	padding:2.6em;
-	margin: 0 4em;
 }
 
 .Story .column{
@@ -266,34 +263,34 @@ color: #F2C6B6
 .storypar{
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
 	font-size:1.25em;
+	width: 100%;
 }
 
 .aboutourstory{
 	text-transform: uppercase;
 	font-size: 2.5em;
 	padding-left: .7em;
-	text-decoration: underline;
-	max-width: 20em;
+	width: 100%;
+	text-align: center;
 }
 
 .Story{
-  width:100%;
+  	width:100%;
 	background-color: #DBBFA4;
 	clear: both;
 	margin: auto;
-	column-count: 2;
 }
 
 
 .Story img{
-  width: 100%;
+  	width: 50%;
 	display: block;
-	padding: 1em;
+	padding: 3em;
 }
 
-
-.input{
-	margin-bottom: 2em;
+#wrapper{
+	max-width: 100%;
+	margin: auto;
 }
 
 .Contact{
@@ -301,18 +298,12 @@ color: #F2C6B6
 	height: initial;
 	text-align: left;
 	background-color: #F5D5B8;
-	float: right;
-	clear: both;
 }
 
 
+
 .Contact img{
-	width:30em;
-	height:initial;
-	text-align:left;
-	margin-right: 3.1em;
-	margin-bottom: .6em;
-	padding: 1em;
+	width:100%;
 }
 
 
@@ -332,33 +323,28 @@ color: #F2C6B6
 	border: .1em black solid;
 	cursor: pointer;
 	padding: .6em;	
-	margin: .6em;
+	margin-top: 1em;
+	width: 100%;
 }
 .contactbutton:hover{
 	background: white;
 	color: #403527;
+	
 }
 
-#form{
-	display: block;
-}
 
-#fname{
-	width: 40%;
+
+input, textarea{
+	width: 100%;
 	display: block;
 	background-color: #F2C6B6;
+	margin-bottom: 1em;
 	color: #403527;
 }
 
-#email{
-	display: block;
-	width: 40%;
-	background-color: #F2C6B6;
-	color: #403527;
-}
 #message{
 	display: block;
-	width: 40%;
+	width: 100%;
 	padding: 30px;
 	background-color: #F2C6B6;
 	color: #403527;
@@ -377,9 +363,6 @@ footer p{
 	font-size: 1em;
 }
 
-#wrapper{
-	min-width: 100%;
-}
 
 @media only screen and (max-width: 1060px){
 	.Contact{
@@ -391,168 +374,64 @@ footer p{
 	
 }
 
-@media only screen and (min-width: 500px) and (max-width: 816px){
-	nav a{
-		display: block;	
-		 border: 1px solid black;	
-	}
+@media only screen and (max-width: 816px) {
 	
-	.Breads{
-		float:none;
-		text-align: center;
-    width: 100%;
-		display: block;
-	}
-	
-	.Breads img{
+	.column{
 		float: none;
-		text-align: center;
-		width: 50%;
-	}
-	
-	.aboutbreadcolumn{
-		float: none;
-		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1.5em;
-	}
-	
-	#breadpar{
-		float: none;
-		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1em;
-	}
-
-	
-	.Skincare {
-		display: block;
-		float: none;
-		min-width: 100%;
-	}
-	
-	.skinpar{
-		float: none;
-		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1em;
-	}
-	
-	.aboutskincare{
-		float: none;
-		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1.5em;
-	}
-	
-	.Skincare img{
-		float: none;
-		text-align: center;
-		width: 50%;
-	}
-	
-	.Social {
-		display: block;
-		float: none;
-		min-width: 50%;
-	}
-	
-	.join {
-		width: auto;
-		font-size: 2em;
-		text-align: center;
-	}
-	
-	.socialtag{
-			width: auto;
-		font-size: 1.5em;
-		text-align: center;
-	}
-	
-	.Summary h1{
-		font-size: 2em;
-	}
-	
-	.shop-now-button{
-		float: center;
-		text-align: center;
-	}
-	.Skincare .shop-now-button{
-		float: center;
-		text-align: center;
-	}
-	.Breads .shop-now-button{
-		float: center;
-		text-align: center;
-	}
-.Contact{
-		float:none;
-		text-align: center;
-    width: auto;
-		display: block;
-	}
-	
+		width: 100%;
+		position: relative;
+		padding: 2em; 
 }
 
-@media only screen and (max-width: 700px) {
 	
-		.Breads {
-		display: block;
+	.Breads {
 		float: none;
-		min-width: 100%;
+		margin: auto;
+		width: 100%;
 	}
 	
 	.Breads img{
-		float: none;
-		text-align: center;
 		width: 100%;
 	}
 	
 	.aboutbreadcolumn{
-		float: none;
+		width: 100%;
+		font-size: 2em;
 		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1.5em;
-	}
-	
-	#breadpar{
-		float: none;
-		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1em;
-	}
-	
-	.Skincare {
 		display: block;
+		margin-top: -1.5em;
+	}
+	
+	.breadpar{
+		font-size: 1.2em;
+		width: 100%;
+		text-align: center;
 		float: none;
-		min-width: 100%;
+	}
+
+
+	.Skincare .column{
+		float: none;
+		margin: auto;
+		width: 100%;
 	}
 	
 	.skinpar{
-		float: none;
 		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1em;
+		width: 100%;
+		font-size: 1.2em;
 	}
 	
 	.aboutskincare{
-		float: none;
+		width: 100%;
+		text-decoration: none;
 		text-align: center;
-		width: 50%;
-		height: initial;
-		font-size: 1.5em;
+		font-size: 2em;
+		display: block;
+		margin-top: -1.5em;
 	}
 	
 	.Skincare img{
-		float: none;
-		text-align: center;
 		width: 100%;
 	}
 	
@@ -562,9 +441,28 @@ footer p{
 		min-width: 100%;
 	}
 	
+	.join{
+		margin-top: -1.2em;
+		font-size: 1.2em;
+	}
+	
+	.Social img{
+		width: 25%;
+	}
+	
+	
+	.Story{
+		width: 100%
+			float: none;
+	}
+
+	.Story img{
+		width: 100%;
+		float: none;
+		margin-top: -4.5em;
+	}
 nav a{
-		 display: block;	
-	   float: center;    
+		 display: block;	   
 	   border: 1px solid black;	
 	   padding: 2px;
 	   text-align: center;
@@ -575,34 +473,49 @@ nav a{
 		text-align: center;
 	}
 	
-	.Summary h1{
-		font-size: 1.5em;
-	}
+		
 	.shop-now-button{
-		float: center;
-		text-align: center;
+		transform: none;
 	}
+
 	.Skincare .shop-now-button{
-		float: center;
-		text-align: center;
-	}
+			transform: translate(80%);
+		}
+	
+	
 	.Breads .shop-now-button{
-		float: center;
+			transform: translate(80%);
+	}
+	
+	.Hero .shop-now-button{
+		width: 120px;
+		height: 40px;
+		font-size: 1.2em;
 		text-align: center;
+		opacity: 0.9;
+		font-weight: bold;
 	}
 	
 	.Contact{
 		float:none;
 		text-align: center;
-    	width: auto;
+    width: 100%;
 		display: block;
 	}
 	
+	.contactbutton{
+		width: 8em;
+		transform: translate(70%);
+	}
 	.Contact img{
-		display: none;
+		
+		text-align: center;
+		display: block;
+	}
+	
+	.Summary h1{
+		font-size: 2em;
+		margin-top: -.15em;
 	}
 	
 }
-
-
-
