@@ -461,12 +461,19 @@ footer p{
 		float: none;
 		margin-top: -4.5em;
 	}
-nav a{
-		 display: block;	   
-	   border: 1px solid black;	
+
+	nav{
+		float:none;
+		clear:both;
+		display:block;
+	}
+	
+	nav a{
+		display: block;	   
 	   padding: 2px;
 	   text-align: center;
 	  }
+	
 	
 	#header{
 		display:inline-block;
