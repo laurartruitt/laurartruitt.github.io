@@ -465,12 +465,10 @@ footer p{
 	nav{
 		float:none;
 		clear:both;
-		display:block;
 	}
 	
 	nav a{
-		display: block;	   
-	   padding: 2px;
+		 display: block;	   
 	   text-align: center;
 	  }
 	
@@ -513,6 +511,13 @@ footer p{
 	.contactbutton{
 		width: 8em;
 		transform: translate(70%);
+		background: #403527;
+	 color: white;
+	 cursor: pointer;
+	 font-size: 1em;
+	 border: .1em black solid;
+	padding: .6em;	
+	margin-top: 1em;
 	}
 	.Contact img{
 		
