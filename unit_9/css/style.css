@@ -130,16 +130,15 @@ nav a:hover{
   letter-spacing: .2em;
   padding:0 .2em;
   background: #BF755A;
-	color: white;
+  color: white;
   font-weight: bolder;
 }
 .column{
   width: 50%;
   position: relative;
   padding: 2em;
-	float: left;
+  float: left;
 }
-
 
 .breadpar{
 	width: 100%;
@@ -150,14 +149,14 @@ nav a:hover{
 
 .Breads img{
 	max-width: 100%;
-	width: 100%
+	width: 100%;
 	display: block;
 }
 
 
 .Breads .shop-now-button{
 	background: #403527;
-  display: inline-block;
+  	display: inline-block;
 	color: white;
 	cursor: pointer;
 	font-size: 1em;
@@ -167,7 +166,7 @@ nav a:hover{
 	transform: translate(100%);
 }
 .Breads .shop-now-button:hover{
-color: #F2C6B6
+	color: #F2C6B6
 }
 .Skincare .column{
   float:right;
@@ -197,7 +196,7 @@ color: #F2C6B6
 }
 
 .Skincare img{
-  display: block;
+  	display: block;
 	max-width: 100%;
 }
 
@@ -246,9 +245,9 @@ color: #F2C6B6;
   padding:0 .4em;
   background: #736356;
   font-weight: bolder;
-	color: white;
+  color: white;
   float: right;
-	text-align: center;
+  text-align: center;
 }
 
 
@@ -324,15 +323,13 @@ color: #F2C6B6;
 	cursor: pointer;
 	padding: .6em;	
 	margin-top: 1em;
-	width: 100%;
+	width: 80%;
 }
 .contactbutton:hover{
 	background: white;
 	color: #403527;
 	
 }
-
-
 
 input, textarea{
 	width: 100%;
@@ -368,7 +365,7 @@ footer p{
 	.Contact{
 		float:none;
 		text-align: center;
-    width: auto;
+    	width: auto;
 		display: block;
 	}
 	
@@ -512,18 +509,20 @@ footer p{
 		width: 8em;
 		transform: translate(70%);
 		background: #403527;
-	 color: white;
-	 cursor: pointer;
-	 font-size: 1em;
-	 border: .1em black solid;
-	padding: .6em;	
-	margin-top: 1em;
+	 	color: white;
+	 	cursor: pointer;
+	 	font-size: 1em;
+	 	border: .1em black solid;
+		padding: .6em;	
+		margin-top: 1em;
 	}
 	.Contact img{
 		
 		text-align: center;
 		display: block;
 	}
+
+	
 	
 	.Summary h1{
 		font-size: 2em;
